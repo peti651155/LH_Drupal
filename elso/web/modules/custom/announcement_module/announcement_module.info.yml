@@ -1,0 +1,9 @@
+name: 'Announcement Module'
+type: module
+description: 'Custom module for announcements.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom
+dependencies:
+  - drupal:node
+version: '1.0'
+project: 'announcement_module'

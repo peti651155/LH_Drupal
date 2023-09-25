@@ -1,0 +1,7 @@
+announcement_module.announcement_list:
+  path: '/announcement-list'
+  defaults:
+    _controller: '\Drupal\announcement_module\Controller\AnnouncementController::listAnnouncements'
+    _title: 'Announcement List'
+  requirements:
+    _permission: 'access content'

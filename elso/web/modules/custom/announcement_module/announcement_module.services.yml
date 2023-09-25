@@ -1,0 +1,5 @@
+services:
+  announcement_module.announcement_service:
+    class: Drupal\announcement_module\AnnouncementService
+    arguments:
+      $entityTypeManager: '@entity_type.manager'
